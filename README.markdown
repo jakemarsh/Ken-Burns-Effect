@@ -1,16 +1,33 @@
-iOS KeyBurns effect
+Forked from @jberlana's iOS KeyBurns effect
 ====================
 
-The goal of this project is to create a UIView that can generate a KeyBurns transition with a set of images passed as an array.
+I've renamed a few things to work better in my environements, but this project is 99.9% the work of @jberlana. 
 
-To use it just create a UIView that inherit from KeyBurnsView.h and call this method to start the animation.
+The goal of this project is to create a `UIView` that can generate a Ken-Burns-style transition when given an array of `UIImage` objects.
 
-**- (void)starAnimationWithImages:(NSArray*)images TransitionTime:(float)time onLoop:(BOOL)isLoop inLandscape:(BOOL)isLandscape;**
+To use it, you simply need to an an instance of `JMKenBurnsView` and call this method to start the action:
 
-1. *images:* NSArray of UIImages.
-2. *time:*  Time in seconds for the transition between each image.
-3. *isLoop:*  The animation will start again when ended.
-4. *isLandscape:*  If true optimized to show in Landscape mode.
+``` objc
+
+[self.kenBurnsView animateWithImages:slideshowImages
+			 transitionDuration:15.0 
+						   loop:YES 
+					inLandscape:YES];
+
+```
+
+### Documentation
+
+``` objc
+
+- (void) animateWithImages:(NSArray *)images transitionDuration:(float)duration loop:(BOOL)shouldLoop inLandscape:(BOOL)isLandscape;
+
+```
+
+- `images` - NSArray of UIImages.
+- `duration` - Time in seconds for the transition between each image.
+- `shouldLoop` - The animation will start again when ended.
+- `isLandscape` - If true optimized to show in Landscape mode.
 
 ### TODO
 
@@ -18,4 +35,5 @@ To use it just create a UIView that inherit from KeyBurnsView.h and call this me
 * Improvements on image transition effects.
 
 --
+
 ###[SweetBits](http://www.sweetbits.es/ "SweetBits"), welcome to the candy factory.###
