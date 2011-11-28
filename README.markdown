@@ -1,7 +1,7 @@
 Forked from [@jberlana](https://github.com/jberlana)'s [iOS KeyBurns effect](https://github.com/jberlana/iOSKeyBurns)
 ====================
 
-I've renamed a few things to work better in my environements, but this project is 99.9% the work of [@jberlana](https://github.com/jberlana). 
+I've renamed a few things to work better in my environments, but this project is 99.9% the work of [@jberlana](https://github.com/jberlana). 
 
 The goal of this project is to create a `UIView` that can generate a Ken-Burns-style transition when given an array of `UIImage` objects.
 
