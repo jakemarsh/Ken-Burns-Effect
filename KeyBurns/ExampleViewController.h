@@ -10,9 +10,9 @@
 #import "JMKenBurnsView.h"
 
 @interface ExampleViewController : UIViewController {
-    JMKenBurnsView *keyView;
+    JMKenBurnsView *_kenBurnsView;
 }
 
-@property (nonatomic, retain) IBOutlet JMKenBurnsView *keyView;
+@property (nonatomic, retain) IBOutlet JMKenBurnsView *kenBurnsView;
 
 @end
