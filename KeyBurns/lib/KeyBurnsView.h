@@ -21,6 +21,6 @@
 @property (nonatomic) BOOL isLandscape;
 @property (nonatomic, retain) NSArray *imagesArray;
 
-- (void)animateWithImages:(NSArray *)images transitionDuration:(float)time loop:(BOOL)isLoop inLandscape:(BOOL)isLandscape;
+- (void) animateWithImages:(NSArray *)images transitionDuration:(float)time loop:(BOOL)isLoop inLandscape:(BOOL)isLandscape;
 
 @end
