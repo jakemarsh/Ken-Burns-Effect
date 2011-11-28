@@ -5,7 +5,7 @@ I've renamed a few things to work better in my environements, but this project i
 
 The goal of this project is to create a `UIView` that can generate a Ken-Burns-style transition when given an array of `UIImage` objects.
 
-To use it, you simply need to an an instance of `JMKenBurnsView` and call this method to start the action:
+To use it, you simply need to an an instance of `JBKenBurnsView` and call this method to start the action:
 
 ``` objc
 

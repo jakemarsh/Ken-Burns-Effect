@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30C1DA5714831CA00022BF20 /* JMKenBurnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C1DA5614831CA00022BF20 /* JMKenBurnsView.m */; };
 		30C1DA5F14831D2D0022BF20 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 30C1DA5A14831D2D0022BF20 /* image1.jpeg */; };
 		30C1DA6014831D2D0022BF20 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 30C1DA5B14831D2D0022BF20 /* image2.jpeg */; };
 		30C1DA6114831D2D0022BF20 /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 30C1DA5C14831D2D0022BF20 /* image3.jpeg */; };
 		30C1DA6214831D2D0022BF20 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1DA5D14831D2D0022BF20 /* image4.png */; };
 		30C1DA6314831D2D0022BF20 /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1DA5E14831D2D0022BF20 /* image5.png */; };
+		30C1DA6D148323810022BF20 /* JBKenBurnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C1DA6C148323810022BF20 /* JBKenBurnsView.m */; };
 		42B17968142CCBE3006D5610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B17967142CCBE3006D5610 /* UIKit.framework */; };
 		42B1796A142CCBE3006D5610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B17969142CCBE3006D5610 /* Foundation.framework */; };
 		42B1796C142CCBE3006D5610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B1796B142CCBE3006D5610 /* CoreGraphics.framework */; };
@@ -26,13 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30C1DA5514831CA00022BF20 /* JMKenBurnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMKenBurnsView.h; sourceTree = "<group>"; };
-		30C1DA5614831CA00022BF20 /* JMKenBurnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKenBurnsView.m; sourceTree = "<group>"; };
 		30C1DA5A14831D2D0022BF20 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
 		30C1DA5B14831D2D0022BF20 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpeg; sourceTree = "<group>"; };
 		30C1DA5C14831D2D0022BF20 /* image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpeg; sourceTree = "<group>"; };
 		30C1DA5D14831D2D0022BF20 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
 		30C1DA5E14831D2D0022BF20 /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
+		30C1DA6B148323810022BF20 /* JBKenBurnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBKenBurnsView.h; sourceTree = "<group>"; };
+		30C1DA6C148323810022BF20 /* JBKenBurnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBKenBurnsView.m; sourceTree = "<group>"; };
 		42B17963142CCBE3006D5610 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B17967142CCBE3006D5610 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42B17969142CCBE3006D5610 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,15 +65,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30C1DA5414831CA00022BF20 /* JMKenBurnsView */ = {
-			isa = PBXGroup;
-			children = (
-				30C1DA5514831CA00022BF20 /* JMKenBurnsView.h */,
-				30C1DA5614831CA00022BF20 /* JMKenBurnsView.m */,
-			);
-			path = JMKenBurnsView;
-			sourceTree = SOURCE_ROOT;
-		};
 		30C1DA5814831D2D0022BF20 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,10 +99,19 @@
 			path = KeyBurns;
 			sourceTree = "<group>";
 		};
+		30C1DA6A148323810022BF20 /* JBKenBurnsView */ = {
+			isa = PBXGroup;
+			children = (
+				30C1DA6B148323810022BF20 /* JBKenBurnsView.h */,
+				30C1DA6C148323810022BF20 /* JBKenBurnsView.m */,
+			);
+			path = JBKenBurnsView;
+			sourceTree = "<group>";
+		};
 		42B17958142CCBE3006D5610 = {
 			isa = PBXGroup;
 			children = (
-				30C1DA5414831CA00022BF20 /* JMKenBurnsView */,
+				30C1DA6A148323810022BF20 /* JBKenBurnsView */,
 				30C1DA6414831EB20022BF20 /* Classes */,
 				42B1796E142CCBE3006D5610 /* Supporting Files */,
 				42B17966142CCBE3006D5610 /* Frameworks */,
@@ -223,7 +223,7 @@
 				42B17974142CCBE3006D5610 /* main.m in Sources */,
 				42B17978142CCBE3006D5610 /* AppDelegate.m in Sources */,
 				42B17985142CCC2C006D5610 /* ExampleViewController.m in Sources */,
-				30C1DA5714831CA00022BF20 /* JMKenBurnsView.m in Sources */,
+				30C1DA6D148323810022BF20 /* JBKenBurnsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
