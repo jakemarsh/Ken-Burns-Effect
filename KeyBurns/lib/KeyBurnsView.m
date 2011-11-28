@@ -46,20 +46,19 @@
     return self;
 }
 
-- (void)starAnimationWithImages:(NSArray*)images TransitionTime:(float)aTime onLoop:(BOOL)inLoop inLandscape:(BOOL)inLandscape
+- (void)animateWithImages:(NSArray *)images transitionDuration:(float)aTime loop:(BOOL)shouldLoop inLandscape:(BOOL)inLandscape
 {
     self.imagesArray = images;
     self.timeTransition = aTime;
-    self.isLoop = inLoop;
+    self.isLoop = shouldLoop;
     self.isLandscape = inLandscape;
     self.animationInCurse = NO;
     self.layer.masksToBounds = YES;
-    
-    [NSThread detachNewThreadSelector:@selector(starAnimations:) toTarget:self withObject:images];
 
+    [NSThread detachNewThreadSelector:@selector(starAnimations:) toTarget:self withObject:images];
 }
 
-- (void)starAnimations:(NSArray*)images
+- (void)starAnimations:(NSArray *)images
 {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     
@@ -76,7 +75,7 @@
     [pool release];
 }
 
-- (void)animate:(NSNumber*)num
+- (void)animate:(NSNumber *)num
 {
     UIImage* image = [self.imagesArray objectAtIndex:[num intValue]];
     UIImageView *imageView;

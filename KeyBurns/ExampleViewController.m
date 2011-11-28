@@ -46,8 +46,10 @@
                          [UIImage imageNamed:@"image5.png"],
                          nil];
     
-    [self.keyView starAnimationWithImages:myImages TransitionTime:15  onLoop:YES inLandscape:YES];
-    
+	[self.keyView animateWithImages:myImages 
+				 transitionDuration:15.0 
+							   loop:YES 
+						inLandscape:YES];
 }
 
 - (void)viewDidUnload

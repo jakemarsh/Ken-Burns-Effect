@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-@interface KeyBurnsView : UIView{
+@interface KeyBurnsView : UIView {
     NSArray *imagesArray;
     float timeTransition;
     BOOL isLoop;
@@ -21,6 +21,6 @@
 @property (nonatomic) BOOL isLandscape;
 @property (nonatomic, retain) NSArray *imagesArray;
 
-- (void)starAnimationWithImages:(NSArray*)images TransitionTime:(float)time onLoop:(BOOL)isLoop inLandscape:(BOOL)isLandscape;
+- (void)animateWithImages:(NSArray *)images transitionDuration:(float)time loop:(BOOL)isLoop inLandscape:(BOOL)isLandscape;
 
 @end
