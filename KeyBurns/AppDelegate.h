@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ExampleViewController.h"
 
-@interface KeyBurnsAppDelegate : NSObject <UIApplicationDelegate> {
+@interface AppDelegate : NSObject <UIApplicationDelegate> {
     ExampleViewController *_exampleViewController;
 }
 

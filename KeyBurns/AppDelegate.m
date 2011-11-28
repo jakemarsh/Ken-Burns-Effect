@@ -6,9 +6,9 @@
 //  Copyright 2011 SweetBits.es All rights reserved.
 //
 
-#import "KeyBurnsAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation KeyBurnsAppDelegate
+@implementation AppDelegate
 
 @synthesize window = _window;
 @synthesize exampleViewController = _exampleViewController;

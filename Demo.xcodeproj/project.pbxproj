@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42582C1B143082A000CE55BF /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 42582C1A143082A000CE55BF /* image3.jpeg */; };
-		42582C231430C68400CE55BF /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = 42582C211430C68400CE55BF /* image5.png */; };
-		42582C241430C68400CE55BF /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 42582C221430C68400CE55BF /* image4.png */; };
+		30C1DA5714831CA00022BF20 /* JMKenBurnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C1DA5614831CA00022BF20 /* JMKenBurnsView.m */; };
+		30C1DA5F14831D2D0022BF20 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 30C1DA5A14831D2D0022BF20 /* image1.jpeg */; };
+		30C1DA6014831D2D0022BF20 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 30C1DA5B14831D2D0022BF20 /* image2.jpeg */; };
+		30C1DA6114831D2D0022BF20 /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 30C1DA5C14831D2D0022BF20 /* image3.jpeg */; };
+		30C1DA6214831D2D0022BF20 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1DA5D14831D2D0022BF20 /* image4.png */; };
+		30C1DA6314831D2D0022BF20 /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1DA5E14831D2D0022BF20 /* image5.png */; };
 		42B17968142CCBE3006D5610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B17967142CCBE3006D5610 /* UIKit.framework */; };
 		42B1796A142CCBE3006D5610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B17969142CCBE3006D5610 /* Foundation.framework */; };
 		42B1796C142CCBE3006D5610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B1796B142CCBE3006D5610 /* CoreGraphics.framework */; };
 		42B17972142CCBE3006D5610 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42B17970142CCBE3006D5610 /* InfoPlist.strings */; };
 		42B17974142CCBE3006D5610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B17973142CCBE3006D5610 /* main.m */; };
-		42B17978142CCBE3006D5610 /* KeyBurnsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B17977142CCBE3006D5610 /* KeyBurnsAppDelegate.m */; };
+		42B17978142CCBE3006D5610 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B17977142CCBE3006D5610 /* AppDelegate.m */; };
 		42B1797B142CCBE3006D5610 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B17979142CCBE3006D5610 /* MainWindow.xib */; };
 		42B17985142CCC2C006D5610 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B17983142CCC2C006D5610 /* ExampleViewController.m */; };
 		42B17986142CCC2C006D5610 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B17984142CCC2C006D5610 /* ExampleViewController.xib */; };
-		42B17989142CCD27006D5610 /* KeyBurnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B17988142CCD27006D5610 /* KeyBurnsView.m */; };
-		42B17991142CD112006D5610 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 42B1798F142CD112006D5610 /* image2.jpeg */; };
-		42B17992142CD112006D5610 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 42B17990142CD112006D5610 /* image1.jpeg */; };
 		42B17994142CD2EA006D5610 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B17993142CD2EA006D5610 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42582C1A143082A000CE55BF /* image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpeg; sourceTree = "<group>"; };
-		42582C211430C68400CE55BF /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
-		42582C221430C68400CE55BF /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
-		42B17963142CCBE3006D5610 /* KeyBurns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBurns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C1DA5514831CA00022BF20 /* JMKenBurnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMKenBurnsView.h; sourceTree = "<group>"; };
+		30C1DA5614831CA00022BF20 /* JMKenBurnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKenBurnsView.m; sourceTree = "<group>"; };
+		30C1DA5A14831D2D0022BF20 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
+		30C1DA5B14831D2D0022BF20 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpeg; sourceTree = "<group>"; };
+		30C1DA5C14831D2D0022BF20 /* image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpeg; sourceTree = "<group>"; };
+		30C1DA5D14831D2D0022BF20 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		30C1DA5E14831D2D0022BF20 /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
+		42B17963142CCBE3006D5610 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B17967142CCBE3006D5610 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42B17969142CCBE3006D5610 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42B1796B142CCBE3006D5610 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		42B1796F142CCBE3006D5610 /* KeyBurns-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyBurns-Info.plist"; sourceTree = "<group>"; };
+		42B1796F142CCBE3006D5610 /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
 		42B17971142CCBE3006D5610 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42B17973142CCBE3006D5610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42B17975142CCBE3006D5610 /* KeyBurns-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyBurns-Prefix.pch"; sourceTree = "<group>"; };
-		42B17976142CCBE3006D5610 /* KeyBurnsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyBurnsAppDelegate.h; sourceTree = "<group>"; };
-		42B17977142CCBE3006D5610 /* KeyBurnsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBurnsAppDelegate.m; sourceTree = "<group>"; };
+		42B17975142CCBE3006D5610 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
+		42B17976142CCBE3006D5610 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		42B17977142CCBE3006D5610 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		42B1797A142CCBE3006D5610 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		42B17982142CCC2C006D5610 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
 		42B17983142CCC2C006D5610 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
 		42B17984142CCC2C006D5610 /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleViewController.xib; sourceTree = "<group>"; };
-		42B17987142CCD27006D5610 /* KeyBurnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyBurnsView.h; path = lib/KeyBurnsView.h; sourceTree = "<group>"; };
-		42B17988142CCD27006D5610 /* KeyBurnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyBurnsView.m; path = lib/KeyBurnsView.m; sourceTree = "<group>"; };
-		42B1798F142CD112006D5610 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpeg; sourceTree = "<group>"; };
-		42B17990142CD112006D5610 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
 		42B17993142CD2EA006D5610 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -65,6 +65,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30C1DA5414831CA00022BF20 /* JMKenBurnsView */ = {
+			isa = PBXGroup;
+			children = (
+				30C1DA5514831CA00022BF20 /* JMKenBurnsView.h */,
+				30C1DA5614831CA00022BF20 /* JMKenBurnsView.m */,
+			);
+			path = JMKenBurnsView;
+			sourceTree = SOURCE_ROOT;
+		};
+		30C1DA5814831D2D0022BF20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30C1DA5914831D2D0022BF20 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30C1DA5914831D2D0022BF20 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				30C1DA5A14831D2D0022BF20 /* image1.jpeg */,
+				30C1DA5B14831D2D0022BF20 /* image2.jpeg */,
+				30C1DA5C14831D2D0022BF20 /* image3.jpeg */,
+				30C1DA5D14831D2D0022BF20 /* image4.png */,
+				30C1DA5E14831D2D0022BF20 /* image5.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		42B17958142CCBE3006D5610 = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +106,7 @@
 		42B17964142CCBE3006D5610 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42B17963142CCBE3006D5610 /* KeyBurns.app */,
+				42B17963142CCBE3006D5610 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,9 +125,9 @@
 		42B1796D142CCBE3006D5610 /* KeyBurns */ = {
 			isa = PBXGroup;
 			children = (
-				42B17981142CCBFE006D5610 /* KeyBurns Lib */,
-				42B17976142CCBE3006D5610 /* KeyBurnsAppDelegate.h */,
-				42B17977142CCBE3006D5610 /* KeyBurnsAppDelegate.m */,
+				30C1DA5414831CA00022BF20 /* JMKenBurnsView */,
+				42B17976142CCBE3006D5610 /* AppDelegate.h */,
+				42B17977142CCBE3006D5610 /* AppDelegate.m */,
 				42B17979142CCBE3006D5610 /* MainWindow.xib */,
 				42B17982142CCC2C006D5610 /* ExampleViewController.h */,
 				42B17983142CCC2C006D5610 /* ExampleViewController.m */,
@@ -111,42 +140,21 @@
 		42B1796E142CCBE3006D5610 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				42B1798E142CD0FC006D5610 /* Images */,
-				42B1796F142CCBE3006D5610 /* KeyBurns-Info.plist */,
+				30C1DA5814831D2D0022BF20 /* Resources */,
+				42B1796F142CCBE3006D5610 /* Demo-Info.plist */,
 				42B17970142CCBE3006D5610 /* InfoPlist.strings */,
 				42B17973142CCBE3006D5610 /* main.m */,
-				42B17975142CCBE3006D5610 /* KeyBurns-Prefix.pch */,
+				42B17975142CCBE3006D5610 /* Demo-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		42B17981142CCBFE006D5610 /* KeyBurns Lib */ = {
-			isa = PBXGroup;
-			children = (
-				42B17987142CCD27006D5610 /* KeyBurnsView.h */,
-				42B17988142CCD27006D5610 /* KeyBurnsView.m */,
-			);
-			name = "KeyBurns Lib";
-			sourceTree = "<group>";
-		};
-		42B1798E142CD0FC006D5610 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				42582C211430C68400CE55BF /* image5.png */,
-				42582C221430C68400CE55BF /* image4.png */,
-				42582C1A143082A000CE55BF /* image3.jpeg */,
-				42B1798F142CD112006D5610 /* image2.jpeg */,
-				42B17990142CD112006D5610 /* image1.jpeg */,
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42B17962142CCBE3006D5610 /* KeyBurns */ = {
+		42B17962142CCBE3006D5610 /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42B1797E142CCBE3006D5610 /* Build configuration list for PBXNativeTarget "KeyBurns" */;
+			buildConfigurationList = 42B1797E142CCBE3006D5610 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
 				42B1795F142CCBE3006D5610 /* Sources */,
 				42B17960142CCBE3006D5610 /* Frameworks */,
@@ -156,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = KeyBurns;
+			name = Demo;
 			productName = KeyBurns;
-			productReference = 42B17963142CCBE3006D5610 /* KeyBurns.app */;
+			productReference = 42B17963142CCBE3006D5610 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -170,7 +178,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = IECISA;
 			};
-			buildConfigurationList = 42B1795D142CCBE3006D5610 /* Build configuration list for PBXProject "KeyBurns" */;
+			buildConfigurationList = 42B1795D142CCBE3006D5610 /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -182,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42B17962142CCBE3006D5610 /* KeyBurns */,
+				42B17962142CCBE3006D5610 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -195,11 +203,11 @@
 				42B17972142CCBE3006D5610 /* InfoPlist.strings in Resources */,
 				42B1797B142CCBE3006D5610 /* MainWindow.xib in Resources */,
 				42B17986142CCC2C006D5610 /* ExampleViewController.xib in Resources */,
-				42B17991142CD112006D5610 /* image2.jpeg in Resources */,
-				42B17992142CD112006D5610 /* image1.jpeg in Resources */,
-				42582C1B143082A000CE55BF /* image3.jpeg in Resources */,
-				42582C231430C68400CE55BF /* image5.png in Resources */,
-				42582C241430C68400CE55BF /* image4.png in Resources */,
+				30C1DA5F14831D2D0022BF20 /* image1.jpeg in Resources */,
+				30C1DA6014831D2D0022BF20 /* image2.jpeg in Resources */,
+				30C1DA6114831D2D0022BF20 /* image3.jpeg in Resources */,
+				30C1DA6214831D2D0022BF20 /* image4.png in Resources */,
+				30C1DA6314831D2D0022BF20 /* image5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				42B17974142CCBE3006D5610 /* main.m in Sources */,
-				42B17978142CCBE3006D5610 /* KeyBurnsAppDelegate.m in Sources */,
+				42B17978142CCBE3006D5610 /* AppDelegate.m in Sources */,
 				42B17985142CCC2C006D5610 /* ExampleViewController.m in Sources */,
-				42B17989142CCD27006D5610 /* KeyBurnsView.m in Sources */,
+				30C1DA5714831CA00022BF20 /* JMKenBurnsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,10 +296,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KeyBurns/KeyBurns-Prefix.pch";
+				GCC_PREFIX_HEADER = "KeyBurns/Demo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "KeyBurns/KeyBurns-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "KeyBurns/Demo-Info.plist";
+				PRODUCT_NAME = Demo;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -301,10 +309,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KeyBurns/KeyBurns-Prefix.pch";
+				GCC_PREFIX_HEADER = "KeyBurns/Demo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "KeyBurns/KeyBurns-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "KeyBurns/Demo-Info.plist";
+				PRODUCT_NAME = Demo;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -313,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42B1795D142CCBE3006D5610 /* Build configuration list for PBXProject "KeyBurns" */ = {
+		42B1795D142CCBE3006D5610 /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42B1797C142CCBE3006D5610 /* Debug */,
@@ -322,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42B1797E142CCBE3006D5610 /* Build configuration list for PBXNativeTarget "KeyBurns" */ = {
+		42B1797E142CCBE3006D5610 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42B1797F142CCBE3006D5610 /* Debug */,

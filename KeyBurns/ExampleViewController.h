@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KeyBurnsView.h"
+#import "JMKenBurnsView.h"
 
 @interface ExampleViewController : UIViewController {
-    KeyBurnsView *keyView;
+    JMKenBurnsView *keyView;
 }
 
-@property (nonatomic, retain) IBOutlet KeyBurnsView *keyView;
+@property (nonatomic, retain) IBOutlet JMKenBurnsView *keyView;
 
 @end
