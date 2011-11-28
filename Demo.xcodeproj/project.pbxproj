@@ -41,7 +41,7 @@
 		42B17971142CCBE3006D5610 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42B17973142CCBE3006D5610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42B17975142CCBE3006D5610 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
-		42B17976142CCBE3006D5610 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		42B17976142CCBE3006D5610 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42B17977142CCBE3006D5610 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		42B1797A142CCBE3006D5610 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		42B17982142CCC2C006D5610 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
@@ -94,10 +94,26 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		30C1DA6414831EB20022BF20 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42B17976142CCBE3006D5610 /* AppDelegate.h */,
+				42B17977142CCBE3006D5610 /* AppDelegate.m */,
+				42B17979142CCBE3006D5610 /* MainWindow.xib */,
+				42B17982142CCC2C006D5610 /* ExampleViewController.h */,
+				42B17983142CCC2C006D5610 /* ExampleViewController.m */,
+				42B17984142CCC2C006D5610 /* ExampleViewController.xib */,
+			);
+			name = Classes;
+			path = KeyBurns;
+			sourceTree = "<group>";
+		};
 		42B17958142CCBE3006D5610 = {
 			isa = PBXGroup;
 			children = (
-				42B1796D142CCBE3006D5610 /* KeyBurns */,
+				30C1DA5414831CA00022BF20 /* JMKenBurnsView */,
+				30C1DA6414831EB20022BF20 /* Classes */,
+				42B1796E142CCBE3006D5610 /* Supporting Files */,
 				42B17966142CCBE3006D5610 /* Frameworks */,
 				42B17964142CCBE3006D5610 /* Products */,
 			);
@@ -122,21 +138,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		42B1796D142CCBE3006D5610 /* KeyBurns */ = {
-			isa = PBXGroup;
-			children = (
-				30C1DA5414831CA00022BF20 /* JMKenBurnsView */,
-				42B17976142CCBE3006D5610 /* AppDelegate.h */,
-				42B17977142CCBE3006D5610 /* AppDelegate.m */,
-				42B17979142CCBE3006D5610 /* MainWindow.xib */,
-				42B17982142CCC2C006D5610 /* ExampleViewController.h */,
-				42B17983142CCC2C006D5610 /* ExampleViewController.m */,
-				42B17984142CCC2C006D5610 /* ExampleViewController.xib */,
-				42B1796E142CCBE3006D5610 /* Supporting Files */,
-			);
-			path = KeyBurns;
-			sourceTree = "<group>";
-		};
 		42B1796E142CCBE3006D5610 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +148,7 @@
 				42B17975142CCBE3006D5610 /* Demo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = KeyBurns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
