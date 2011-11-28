@@ -13,8 +13,8 @@
     NSArray *_imagesArray;
 
     float _transitionDuration;
-    BOOL isLoop;
-    BOOL isLandscape;
+    BOOL _isLoop;
+    BOOL _isLandscape;
 }
 
 @property (nonatomic, retain) NSArray *imagesArray;
